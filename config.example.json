@@ -1,0 +1,19 @@
+{
+  "_说明": "复制为 config.json 后填写。config.json 已被 .gitignore 忽略，禁止提交。",
+  "db": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "your_db_user",
+    "password": "your_db_password",
+    "database": "your_database",
+    "prefix": "fa_"
+  },
+  "site": {
+    "_说明": "后台入口与登录态，用于调用后台批量翻译接口",
+    "base_url": "https://example.com",
+    "admin_path": "myadmin.php",
+    "http_auth": "user:password",
+    "cookie": "fastadmin_sid=xxxx; PHPSESSID=xxxx",
+    "timeout": 600
+  }
+}

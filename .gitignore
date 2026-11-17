@@ -1,0 +1,24 @@
+# 本地配置（含数据库密码 / 后台登录态），禁止提交
+config.json
+config.*.json
+!config.example.json
+
+# 本方专有域名/IP 扫描清单（本地私有）
+.secrets.local
+
+# 导出的待译条目与译文
+pending*.json
+translations*.json
+*.bak_*
+*.orig
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
